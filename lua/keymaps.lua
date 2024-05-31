@@ -2,9 +2,10 @@
 --  See `:help vim.keymap.set()`
 
 -- My First Actual Keymaps
-vim.keymap.set('v', '<leader>y', '"*y')
-vim.keymap.set('n', '<leader>p', '"*p')
+vim.keymap.set('v', '<leader>yy', '"*y')
+vim.keymap.set('n', '<leader>pp', '"*p')
 vim.keymap.set('i', 'jj', '<Esc>')
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true

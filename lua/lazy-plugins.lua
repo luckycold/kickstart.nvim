@@ -76,6 +76,12 @@ require('lazy').setup({
   -- I think treesitter is better code highlighting and some extra stuff on top of it?
   require 'lucky/plugins/treesitter',
 
+  -- Remove trailing whitespace and highlight them in red when typing
+  require 'lucky/plugins/trim',
+
+  -- ChatGPT in Neovim!
+  require 'lucky/plugins/chatgpt',
+
   --  Here are some example plugins that have been included in the Kickstart repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
