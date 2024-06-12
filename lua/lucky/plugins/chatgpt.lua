@@ -2,7 +2,9 @@ return {
   'jackMort/ChatGPT.nvim',
   event = 'VeryLazy',
   config = function()
-    require('chatgpt').setup()
+    require('chatgpt').setup {
+      api_key_cmd = 'bw get item d17938ee-48ae-4538-829d-64f5bde45129 | jq -r \'.fields[] | select(.name == "Personal API Key") | .value\' -r',
+    }
   end,
   dependencies = {
     'MunifTanjim/nui.nvim',

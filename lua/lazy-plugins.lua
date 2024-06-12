@@ -82,6 +82,8 @@ require('lazy').setup({
   -- ChatGPT in Neovim!
   require 'lucky/plugins/chatgpt',
 
+  -- Refactoring (Originally got this for extracting functions)
+  require 'lucky/plugins/refactoring',
   --  Here are some example plugins that have been included in the Kickstart repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
