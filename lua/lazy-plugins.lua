@@ -80,7 +80,7 @@ require('lazy').setup({
   require 'lucky/plugins/trim',
 
   -- ChatGPT in Neovim!
-  require 'lucky/plugins/chatgpt',
+  -- require 'lucky/plugins/chatgpt',
 
   -- Refactoring (Originally got this for extracting functions)
   require 'lucky/plugins/refactoring',
